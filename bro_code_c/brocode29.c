@@ -13,7 +13,7 @@ int main()
 
     strcpy(cars[0], "Tesla");
 
-    for(int i = 0; i < sizeof(cars)/sizeof(cars[0]); i++)
+    for(int i = 0; i < sizeof(cars)/sizeof(cars[0]); i++) // sizeof(cars)/sizeof(cars[0]) is used to get the number of elements in the array
     {
         printf("%s\n", cars[i]);
     }
