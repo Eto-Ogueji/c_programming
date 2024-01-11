@@ -7,7 +7,8 @@ int main()
 
     printf("\n");
 
-    char name[] = "Bro"; //array of characters
+    char name[] = "Bro"; // array of characters
+    char* name2 = "Eto"; // another way of declaring arrays
     int age = 5;
     float gpa = 2.05;
     char grade = 'C';
