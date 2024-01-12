@@ -1,0 +1,1 @@
+Undergoing certain practices to understand the memoery layout of a C-program
